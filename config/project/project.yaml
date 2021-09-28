@@ -1,0 +1,27 @@
+dateModified: 1632835980
+email:
+  fromEmail: tj@buzzingpixel.com
+  fromName: 'Craft Scheduler Dev'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    904e5124-282c-4390-917f-2be2f2f10ee1: 'Craft Scheduler Dev' # Craft Scheduler Dev
+    c197cdae-7bde-470f-a14a-280384614f57: 'Craft Scheduler Dev' # Craft Scheduler Dev
+    ef88419b-c2c1-45dc-b769-39a837ab5f0f: Common # Common
+plugins:
+  craft-scheduler:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Scheduler Dev'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

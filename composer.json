@@ -1,0 +1,39 @@
+{
+    "name": "buzzingpixel/craft-scheduler-dev-env",
+    "description": "Dev environment for Craft Scheduler",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "TJ Draper",
+            "email": "tj@buzzingpixel.com",
+            "homepage": "https://buzzingpixel.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/craft-scheduler"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "buzzingpixel/craft-scheduler": "dev-master",
+        "craftcms/cms": "^3.7"
+    },
+    "require-dev": {
+        "buzzingpixel/twig-dumper": "^1.0",
+        "filp/whoops": "^2.9",
+        "symfony/var-dumper": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "config": {
+        "bin-compat": "full",
+        "sort-packages": true
+    }
+}
