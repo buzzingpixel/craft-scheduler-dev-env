@@ -15,7 +15,9 @@
                 "reference": "4f93574132515cf4aa69769623082ba45c20ff4c"
             },
             "require": {
-                "php": "^8.0"
+                "php": "^8.0",
+                "psr/container": "^1.1",
+                "psr/log": "^1.0"
             },
             "require-dev": {
                 "codedungeon/phpunit-result-printer": "^0.31.0",
